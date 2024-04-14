@@ -345,6 +345,11 @@ PRODUCT_PACKAGES += \
     IconDataThree \
     IconDataTwo
 
+# QS UI Style
+PRODUCT_PACKAGES += \
+    QSTwoToneAccent \
+    QSTwoToneAccentTrans
+
 # UDFPS Animations
 ifeq ($(TARGET_UDFPS_ANIMATIONS),true)
 PRODUCT_PACKAGES += \
